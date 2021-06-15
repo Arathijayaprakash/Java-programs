@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ArrayElementsUsingScanner{
+public class ArrayScanner{
 public static void main(String ar[]){
 int n;
 Scanner sc=new Scanner(System.in);

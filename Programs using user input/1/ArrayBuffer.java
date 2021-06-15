@@ -1,18 +1,19 @@
 import java.io.BufferedReader;
-import java.util.Scanner;
-import java.io.IOException;
 import java.io.InputStreamReader;
-public class ArrayElementsUsingBufferedReader{
+import java.io.IOException;
+public class ArrayBuffer
+{
 public static void main(String ar[])
 throws IOException
 {
+int n;
 BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
 System.out.println("Enter no. of elements in the Array: ");
-int n=reader.read();
+n=Integer.parseInt(reader.readLine());;
 int[] array=new int[10];
 System.out.println("Enter the elements of the Array: ");
 for(int i=0;i<n;i++){
-array[i]=reader.read();
+array[i]=Integer.parseInt(reader.readLine());;
 }
 System.out.println("Array elements are: ");
 for(int i=0;i<n;i++){

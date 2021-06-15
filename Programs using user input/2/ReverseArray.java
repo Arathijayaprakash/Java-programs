@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ArrayElementsReverseUsingScanner{
+public class ReverseArray{
 public static void main(String ar[]){
 int n;
 Scanner sc=new Scanner(System.in);
