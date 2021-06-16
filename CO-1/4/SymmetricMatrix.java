@@ -19,7 +19,7 @@ class SymmetricMatrix
 						m[i][j]=sc.nextInt();
 					}
 			}
-
+		if(r==c){
 		System.out.println("matrix: ");
 		for(int i=0;i<r;i++)
 			{
@@ -36,5 +36,8 @@ class SymmetricMatrix
 			System.out.println("Symmetric");
 		else
 			System.out.println("NotSymmetric");
+			}
+		else
+			System.out.println("NotSymmetric (not a square matrix)");	
 		}
 	}
