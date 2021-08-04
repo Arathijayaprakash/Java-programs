@@ -41,7 +41,7 @@ class Teacher extends Employee{
 		}
 	
 }
-class TeacherEmployee{
+class Inheritance{
 	public static void main(String ar[]){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter no. of teachers:");
@@ -49,8 +49,9 @@ class TeacherEmployee{
 		Teacher[] teacher=new Teacher[n];
 		for(int i=0;i<n;i++)
 		teacher[i]=new Teacher();
+		System.out.println("Details of teachers");
 		for(int i=0;i<n;i++){
-			System.out.println("Enter details of teachers:");
+			System.out.println();
 			teacher[i].display();
 		}
 	
