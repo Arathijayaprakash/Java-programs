@@ -11,7 +11,7 @@ for(int i=0;i<n;i++){
 array[i]=sc.nextInt();
 }
 
-System.out.println("Largest element in the array is : ");
+System.out.println("Smallest element in the array is : ");
 int min=array[0];
 for(int i=1;i<n;i++){
 if(array[i]<min)
