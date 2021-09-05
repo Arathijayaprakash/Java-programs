@@ -10,9 +10,9 @@ class Neg_input_exception extends Exception{
 class Average{
 	public static void main(String arg[]){
 		int n;
-		int sum=0;
+		float sum=0;
 		int num;
-		int avg;
+		float avg;
 		int i=1;
 		try{
 			System.out.println("Enter number of numbers:");
